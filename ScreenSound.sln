@@ -5,6 +5,12 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScreenSound", "ScreenSound\ScreenSound.csproj", "{A9CCE41C-6657-42BF-AED4-F3F578033037}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.API", "ScreenSound.API\ScreenSound.API.csproj", "{DF5FA8CF-ECBA-49FC-A471-9636C7EFEA09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.Shared.Modelos", "ScreenSound.Shared.Modelos\ScreenSound.Shared.Modelos.csproj", "{C410A52C-37B4-4F70-99E0-9A44D4198EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScreenSound.Shared.Data", "ScreenSound.Shared.Data\ScreenSound.Shared.Data.csproj", "{A5982718-3737-48C9-B681-4E9DE413FC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +21,23 @@ Global
 		{A9CCE41C-6657-42BF-AED4-F3F578033037}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9CCE41C-6657-42BF-AED4-F3F578033037}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9CCE41C-6657-42BF-AED4-F3F578033037}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF5FA8CF-ECBA-49FC-A471-9636C7EFEA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5FA8CF-ECBA-49FC-A471-9636C7EFEA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5FA8CF-ECBA-49FC-A471-9636C7EFEA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5FA8CF-ECBA-49FC-A471-9636C7EFEA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C410A52C-37B4-4F70-99E0-9A44D4198EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C410A52C-37B4-4F70-99E0-9A44D4198EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C410A52C-37B4-4F70-99E0-9A44D4198EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C410A52C-37B4-4F70-99E0-9A44D4198EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5982718-3737-48C9-B681-4E9DE413FC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5982718-3737-48C9-B681-4E9DE413FC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5982718-3737-48C9-B681-4E9DE413FC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5982718-3737-48C9-B681-4E9DE413FC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B24313D-DE17-4064-A8E1-E4FC1E9618DA}
 	EndGlobalSection
 EndGlobal
